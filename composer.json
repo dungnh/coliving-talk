@@ -15,7 +15,7 @@
         "illuminate/contracts": "5.3.* || 5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || 6.*",
         "illuminate/support": "5.3.* || 5.4.* || 5.5.* || 5.6.* || 5.7.* || 5.8.* || 6.*",
         "sebastian-berc/repositories": "^1.0",
-        "nesbot/carbon": "^2.25",
+        "nesbot/carbon": "^2.25.0",
         "pusher/pusher-php-server": "^4.0.0"
     },
     "require-dev": {
