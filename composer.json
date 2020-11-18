@@ -1,6 +1,6 @@
 {
     "name": "coliving/talk",
-    "description": "This is fork from Nahid/Talk to change it works with new Laravel 6.x and 7.x. Talk is a Laravel 6 & 7 based realtime messaging, chatting and conversation system. It helps to develop users messaging, chatting and conversations in easy way.",
+    "description": "This is fork from Nahid/Talk to change it works with new Laravel 6.x and 7.x and 8.x. Talk is a Laravel 7 & 8 based realtime messaging, chatting and conversation system. It helps to develop users messaging, chatting and conversations in easy way.",
     "keywords": ["message", "inbox", "conversations", "chat", "php", "laravel", "realtime", "real-time"],
     "homepage": "https://github.com/dungnh/coliving-talk",
     "license": "CC0-1.0",
