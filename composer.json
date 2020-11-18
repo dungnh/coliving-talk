@@ -12,15 +12,15 @@
     ],
     "require": {
         "php": ">=7.1.3",
-        "illuminate/contracts": "5.7.* || 5.8.* || 6.* || 7.*",
-        "illuminate/support": "5.7.* || 5.8.* || 6.* || 7.*",
+        "illuminate/contracts": "5.7.* || 5.8.* || 6.* || 7.* || 8.*",
+        "illuminate/support": "5.7.* || 5.8.* || 6.* || 7.* || 8.*",
         "coliving/repositories": "dev-master",
         "nesbot/carbon": "^2.25.0",
-        "pusher/pusher-php-server": "^4.0.0"
+        "pusher/pusher-php-server": "^4.1.4"
     },
     "require-dev": {
-        "graham-campbell/testbench": "^3.1",
-        "phpunit/phpunit": "^4.8 || ^5.0 || ^6.0 || ^8.0"
+        "graham-campbell/testbench": "^5.5",
+        "phpunit/phpunit": "^4.8 || ^5.0 || ^6.0 || ^8.0 || ^9.3"
     },
     "autoload": {
         "psr-4": {
