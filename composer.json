@@ -16,7 +16,7 @@
         "illuminate/support": "5.7.* || 5.8.* || 6.* || 7.* || 8.*",
         "coliving/repositories": "dev-master",
         "nesbot/carbon": "^2.25.0",
-        "pusher/pusher-php-server": "^4.1.4"
+        "pusher/pusher-php-server": "^7.0"
     },
     "require-dev": {
         "graham-campbell/testbench": "^5.5",
