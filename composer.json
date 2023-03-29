@@ -1,6 +1,6 @@
 {
     "name": "coliving/talk",
-    "description": "This is fork from Nahid/Talk to change it works with new Laravel 6.x, 7.x, 8.x and 9.x. Talk is a Laravel 6, 7, 8 & 9 based realtime messaging, chatting and conversation system. It helps to develop users messaging, chatting and conversations in easy way.",
+    "description": "This is fork from Nahid/Talk to change it works with new Laravel 8.x, 9.x and 10.x. Talk is a Laravel 8, 9 & 10 based realtime messaging, chatting and conversation system. It helps to develop users messaging, chatting and conversations in easy way.",
     "keywords": ["message", "inbox", "conversations", "chat", "php", "laravel", "realtime", "real-time"],
     "homepage": "https://github.com/dungnh/coliving-talk",
     "license": "CC0-1.0",
@@ -12,8 +12,8 @@
     ],
     "require": {
         "php": ">=7.1.3",
-        "illuminate/contracts": "5.7.* || 5.8.* || 6.* || 7.* || 8.* || 9.*",
-        "illuminate/support": "5.7.* || 5.8.* || 6.* || 7.* || 8.* || 9.*",
+        "illuminate/contracts": "8.* || 9.* || 10.*",
+        "illuminate/support": "8.* || 9.* || 10.*",
         "coliving/repositories": "dev-master",
         "nesbot/carbon": "^2.25.0",
         "pusher/pusher-php-server": "^7.0"
