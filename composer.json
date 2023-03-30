@@ -14,7 +14,7 @@
         "php": ">=7.1.3",
         "illuminate/contracts": "8.* || 9.* || 10.*",
         "illuminate/support": "8.* || 9.* || 10.*",
-        "coliving/repositories": "dev-master",
+        "coliving/repositories": "1.2.0",
         "nesbot/carbon": "^2.25.0",
         "pusher/pusher-php-server": "^7.0"
     },
