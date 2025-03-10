@@ -16,11 +16,11 @@
         "illuminate/contracts": "8.* || 9.* || 10.* || 11.* || 12.*",
         "illuminate/support": "8.* || 9.* || 10.* || 11.* || 12.*",
         "coliving/repositories": "^1.4",
-        "nesbot/carbon": "^2.25.0",
+        "nesbot/carbon": "^3.8.6",
         "pusher/pusher-php-server": "^7.0"
     },
     "require-dev": {
-        "graham-campbell/testbench": "^5.5",
+        "graham-campbell/testbench": "^6.2",
         "phpunit/phpunit": "^4.8 || ^5.0 || ^6.0 || ^8.0 || ^9.3 || ^10.0 || ^11.0"
     },
     "autoload": {
