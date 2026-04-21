@@ -2,13 +2,13 @@
 
 namespace Nahid\Talk\Tests;
 
-use GrahamCampbell\TestBench\AbstractPackageTestCase;
 use Nahid\Talk\TalkServiceProvider;
+use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 /**
  * This is the abstract test case class.
  */
-abstract class TestCase extends AbstractPackageTestCase
+abstract class TestCase extends OrchestraTestCase
 {
     /**
      * Get the service provider class.
@@ -17,8 +17,8 @@ abstract class TestCase extends AbstractPackageTestCase
      *
      * @return string
      */
-    protected function getServiceProviderClass($app)
+    protected function getPackageProviders($app)
     {
-        return TalkServiceProvider::class;
+        return [TalkServiceProvider::class];
     }
 }

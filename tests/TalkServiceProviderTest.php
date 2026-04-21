@@ -2,7 +2,6 @@
 
 namespace Nahid\Talk\Tests;
 
-use GrahamCampbell\TestBenchCore\ServiceProviderTrait;
 use Nahid\Talk\Talk;
 
 /**
@@ -10,10 +9,8 @@ use Nahid\Talk\Talk;
  */
 class TalkServiceProviderTest extends TestCase
 {
-    use ServiceProviderTrait;
-
     public function testTalkIsInjectable()
     {
-        $this->assertIsInjectable(Talk::class);
+        $this->assertInstanceOf(Talk::class, $this->app->make(Talk::class));
     }
 }
